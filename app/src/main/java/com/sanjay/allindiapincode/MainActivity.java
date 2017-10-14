@@ -1,7 +1,7 @@
 package com.sanjay.allindiapincode;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         EditText editText=(EditText) findViewById(R.id.editext);
         Switch simpleSwitch = (Switch) findViewById(R.id.switch1);
-         Button btn = (Button) findViewById(R.id.button);
+        Button btn = (Button) findViewById(R.id.button)
 
 //        Boolean switchState = simpleSwitch.isChecked();
         simpleSwitch.setTextOn("On");
